@@ -1,0 +1,17 @@
+git config --global user.name ''
+git config --global user.email''
+ mkdir test
+pwd
+cd test     (into the file)
+git init
+git status
+touch a1.txt
+git add a1.txt
+git commit -m''
+vi
+cat
+rm -rf a1.txt 删除文件
+git rm a1.txt 从Git中删除文件
+git clone 仓库地址
+git config -list 查询信息
+git push 
