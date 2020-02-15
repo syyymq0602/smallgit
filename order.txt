@@ -1,17 +1,26 @@
 git config --global user.name ''
 git config --global user.email''
- mkdir test
-pwd
+ mkdir test  创建仓库
+pwd   查看路径
 cd test     (into the file)
-git init
-git status
-touch a1.txt
-git add a1.txt
-git commit -m''
-vi
-cat
-rm -rf a1.txt 删除文件
+git init   初始化
+git status   查看状态
+touch a1.txt  创建文件
+git add a1.txt   暂存区
+git commit -m''   提交到git
+vi  操作命令
+cat  查看内容
+rm -r a1.txt 删除文件
 git rm a1.txt 从Git中删除文件
 git clone 仓库地址
 git config -list 查询信息
-git push 
+git push 推送git
+git  diff 查看差别
+git diff HEAD 最新的差别
+git reset 回退
+git reset --head xxx回退到指定状态
+git reflog 查看操作日志
+git rm 删除一个文件
+git remote add origin address 建立2个仓库连接
+git push -u origin master 请求推送
+git config --list 查看账户
